@@ -764,13 +764,10 @@ section {
   }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
+    padding: 0 1rem 6rem;
   }
   .container {
     padding: 2rem 2.5rem !important;
-  }
-  .about-stats .progress-bars {
-    grid-template-columns: repeat(1, 1fr);
   }
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
@@ -782,7 +779,7 @@ section {
     padding-bottom: 6rem;
   }
   .contact-content-con {
-    padding: 3.5rem 2rem;
+    padding: 3.5rem 2rem 1rem;
     flex-direction: column;
     justify-items: center;
     align-items: center;
